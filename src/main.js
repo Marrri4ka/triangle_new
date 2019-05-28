@@ -1,10 +1,10 @@
-//BUSINESS LOGIC
-
-//UI LOGIC
-import 'bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import $ from 'jquery';
-import './styles.css';
+// //BUSINESS LOGIC
+//
+// //UI LOGIC
+// import 'bootstrap';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import $ from 'jquery';
+// import './styles.css';
 var Triangle = require('./triangle.js').triangleModule;
 
 $(document).ready(function() {

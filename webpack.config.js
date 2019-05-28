@@ -19,9 +19,10 @@ module.exports = {
     }),
     new CleanWebpackPlugin(['dist']),
     new HtmlWebpackPlugin({
-      title: 'Ping Pong',
+      title: 'Triangle',
       template: './src/index.html',
       inject: 'body'
+      
     })
   ],
   module: {

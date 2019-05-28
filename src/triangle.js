@@ -15,7 +15,7 @@ Triangle.prototype.checkTriangle = function() {
   var triangleType;
   if (this.side1 === this.side2 && this.side1 === this.side3 && this.side2 === this.side3) {
     triangleType = 'equilateral';
-  } else if (this.side1 + this.side2 <= this.side3 || this.side1 + this.side3 <= this.side2 || this.side2 + this.side3 <= 1) {
+  } else if (this.side1 + this.side2 <= this.side3 || this.side1 + this.side3 <= this.side2 || this.side2 + this.side3 <= this.side1) {
     triangleType = "invalid";
   } else if (this.side1 === this.side2 || this.side2 === this.side3 || this.side1 === this.side3) {
     triangleType = 'isosceles';
